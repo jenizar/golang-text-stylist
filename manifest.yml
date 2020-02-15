@@ -1,0 +1,7 @@
+---
+applications:
+- name: golang-text-stylist
+  buildpack: go_buildpack
+  memory: 128M
+  env:
+    GOPACKAGENAME : golang-text-stylist
